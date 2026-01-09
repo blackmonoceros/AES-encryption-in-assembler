@@ -12,7 +12,7 @@ Key expansion (key schedule) is done using aeskeygenassist.
 
 Data and keys are processed in 128-bit XMM registers.
 
-The plaintext and key must be loaded into XMM registers before encryption.
+The plaintext and key must be loaded into XMM registers before encryption...
 
 General Workflow
 Load the 16-byte plaintext into xmm0.
