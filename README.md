@@ -21,7 +21,7 @@ Load the 16-byte AES-128 key into xmm1.
 
 Perform key expansion to generate 11 round keys (initial key + 10 round keys).
 
-XOR the plaintext with the initial key (AddRoundKey).
+XOR the plaintext with the initial key kod (AddRoundKey).
 
 Perform 9 rounds of aesenc with the round keys.
 
@@ -48,5 +48,5 @@ Execute 9 rounds of aesenc.
 
 Execute 1 final round of aesenclast.
 
-Process data in XMM registers for maximum performance.
+Process data in XMM registers for maximum performance
 ___________________________________________________
